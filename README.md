@@ -1,2 +1,3 @@
-# hanseul.com personal profile webpage is building up
-## JavaScript, React
+# hanseul.com
+## Personal profile webpage is under construction
+### JavaScript, React
