@@ -13,6 +13,7 @@ const MainContainer = () => {
     const youtube = <h1>Youtube</h1>
     const linkedin = <h1>LinkedIn</h1>
     const twitter = <h1>Twitter</h1>
+    const email = <h1>email</h1>
     
 
 
@@ -40,6 +41,8 @@ const MainContainer = () => {
             setSelectedAct(linkedin);
         } else if (event.target.innerText === "Twitter") {
             setSelectedAct(twitter);
+        } else if (event.target.innerText === "email") {
+                setSelectedAct(email);
         } else {
             setSelectedAct(main);
         }
@@ -60,6 +63,7 @@ const MainContainer = () => {
                 <div onClick={handleMenu}>Youtube</div>
                 <div onClick={handleMenu}>LinkedIn</div>
                 <div onClick={handleMenu}>Twitter</div>
+                <div onClick={handleMenu}>email</div>
                 
                 <div>{selectedAct}</div>
             </div>
