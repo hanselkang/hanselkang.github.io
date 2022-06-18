@@ -1,4 +1,6 @@
 import './App.css';
+import "./components/src/style.css"
+
 import MainContainer from './container/MainContainer';
 
 function App() {
@@ -6,7 +8,6 @@ function App() {
     <div className="App">
       <h1>Still Planning....</h1>
       <MainContainer />
-
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import MainDrawing from "../components/MainDrawing"
 
 const MainContainer = () => {
 
@@ -14,7 +15,7 @@ const MainContainer = () => {
     const linkedin = <h1>LinkedIn</h1>
     const twitter = <h1>Twitter</h1>
     const email = <h1>email</h1>
-    
+
 
 
     const [selectedAct, setSelectedAct] = useState(main)
@@ -42,7 +43,7 @@ const MainContainer = () => {
         } else if (event.target.innerText === "Twitter") {
             setSelectedAct(twitter);
         } else if (event.target.innerText === "email") {
-                setSelectedAct(email);
+            setSelectedAct(email);
         } else {
             setSelectedAct(main);
         }
@@ -64,9 +65,11 @@ const MainContainer = () => {
                 <div onClick={handleMenu}>LinkedIn</div>
                 <div onClick={handleMenu}>Twitter</div>
                 <div onClick={handleMenu}>email</div>
-                
+
                 <div>{selectedAct}</div>
             </div>
+
+            <div><MainDrawing/></div>
         </>
     )
 }
