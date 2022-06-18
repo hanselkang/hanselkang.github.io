@@ -33,10 +33,10 @@ h1 {
     text-align: center;
     align-items: center;
     font-stretch: expanded;
-    border-radius: 5em;
+    border-radius: 5em; 
     letter-spacing:0.1em;
     line-height: 1.3em;
-
+ 
 }
 
 .div2 {

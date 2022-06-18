@@ -8,7 +8,7 @@ const MainContainer = () => {
     const about =
         <div>
             A Software Developer<br /> with a background in <br />Architecture Design <br />and Photograph<br />
-            in Scotland.<br /><br />
+            I am in Scotland.<br /><br />
             I am into learning, <br />
             planning <br />
             and designing.<br />
