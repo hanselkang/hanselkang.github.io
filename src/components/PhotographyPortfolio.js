@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import Modal from 'react-modal'
 
-const PhotographyPortfolio = () => {
+const Portfolios = ({portfolio}) => {
     const [selected, setSelected] = useState('')
     const [toggleModal, setToggleModal] = useState(false);
 
@@ -16,8 +16,25 @@ const PhotographyPortfolio = () => {
 
 
 const showModal =()=>{
-    seeSelected()
+    setSelected(portfolio)
     setToggleModal(true)
 }
+
+const clsoeModal = () => {
+    setSelected('')
+    setToggleModal(false)
+}
+
+return (
+
+    <Modal
+    isOpen={toggleModal}
+    ariaHideApp={false}
+    contentLabel="Portfolio"
+    className="portfolio"
+    overlayClassName="overlay"></Modal>
+
+
+)
 
 }
