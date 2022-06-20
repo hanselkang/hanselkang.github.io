@@ -39,6 +39,22 @@ text {
     font-size: 11.115px
 }
 
+
+#construction {
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    font-family: 'ArialRoundedMTBold', 'Arial Rounded MT Bold';
+    background-color: rgb(255, 164, 95);
+    margin-top: 14vw;
+    width: 25vw;
+    margin-left: 11.5vw;
+    border-radius: 2vw;
+    padding:1vw;
+    opacity: 0.9;
+    
+}
+
 .svg {
     min-width: 650px;
 }
@@ -105,3 +121,4 @@ text {
     align-items: flex-end;
     grid-area: 6 / 1 / 6 / 4;
 }
+

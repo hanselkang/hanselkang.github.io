@@ -6,7 +6,10 @@ import MainContainer from './container/MainContainer';
 function App() {
   return (
     <div className="App">
-      
+      <div id="construction">
+        Under construction<br/>
+        Portfolio Menu is coming soon
+      </div>
       <MainContainer />
     </div>
   );
