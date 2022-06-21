@@ -8,7 +8,11 @@ function App() {
     <div className="App">
       <div id="construction">
         Under construction<br/>
-        Portfolio Menu is coming soon
+        Mobile app
+        <br/>
+        &<br/>
+        Portfolio Menu<br/>
+        are coming soon
       </div>
       <MainContainer />
     </div>
