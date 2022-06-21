@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/hanseul_com/static/css/main.03a4cf35.css",
-    "main.js": "/hanseul_com/static/js/main.0019a7f7.js",
+    "main.css": "/hanseul_com/static/css/main.325b38a1.css",
+    "main.js": "/hanseul_com/static/js/main.15e2172b.js",
     "static/js/787.991ebc39.chunk.js": "/hanseul_com/static/js/787.991ebc39.chunk.js",
     "static/media/github.png": "/hanseul_com/static/media/github.0a05fb1e50d224e8ac15.png",
     "static/media/instagram.png": "/hanseul_com/static/media/instagram.b27351ec9c7cb858fafa.png",
     "index.html": "/hanseul_com/index.html",
-    "main.03a4cf35.css.map": "/hanseul_com/static/css/main.03a4cf35.css.map",
-    "main.0019a7f7.js.map": "/hanseul_com/static/js/main.0019a7f7.js.map",
+    "main.325b38a1.css.map": "/hanseul_com/static/css/main.325b38a1.css.map",
+    "main.15e2172b.js.map": "/hanseul_com/static/js/main.15e2172b.js.map",
     "787.991ebc39.chunk.js.map": "/hanseul_com/static/js/787.991ebc39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03a4cf35.css",
-    "static/js/main.0019a7f7.js"
+    "static/css/main.325b38a1.css",
+    "static/js/main.15e2172b.js"
   ]
 }
