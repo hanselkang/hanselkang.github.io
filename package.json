@@ -1,5 +1,4 @@
 {
-  "homepage": "https://hanselkang.github.io/",
   "name": "hanseul_com",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -40,5 +40,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "homepage": "https://hanselkang.github.io/"
 }
