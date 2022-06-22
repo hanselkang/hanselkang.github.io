@@ -37,6 +37,7 @@ const MobileContainer = () => {
         <h1>Hansel Kang</h1>
             <div className="div1-mobile">
                 <div>Portfolio</div>
+                <div>"Sorry, prortfolio is now Under Construction"</div>
                 <br />
                 <div onClick={handleMenu}>Programming</div>
                 <div onClick={handleMenu}>Photograph</div>
