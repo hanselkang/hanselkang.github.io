@@ -55,6 +55,10 @@ text {
     
 }
 
+#mobile-drawing {
+    padding-left: 10vw;
+}
+
 .svg {
     min-width: 550px;
 }
@@ -91,6 +95,20 @@ text {
     letter-spacing: 0.1em;
     line-height: 1.3em;
 
+}
+.div1-mobile {
+    margin: 10vw;
+    grid-area: 2 / 1 / 3/ 2;
+    padding: 1vh;
+    background-color: aliceblue;
+    font-size: 2.1vh;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    text-align: center;
+    font-stretch: expanded;
+    border-radius: 2em;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
 }
 
 .div2 {

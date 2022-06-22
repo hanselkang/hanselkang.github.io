@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import MainDrawing from "../components/MainDrawing"
+import MobileDrawing from "../components/MobileDrawing"
 import linkedin from "../components/src/icons/linkedin.png"
 import github from "../components/src/icons/github.png"
 import twitter from "../components/src/icons/twitter.png"
 import instagram from "../components/src/icons/instagram.png"
 import youtube from "../components/src/icons/youtube.png"
 
-const MainContainer = () => {
+const MobileContainer = () => {
 
     const programming = <h1> </h1>
     const main = <h1></h1>
@@ -33,9 +33,9 @@ const MainContainer = () => {
     }
 
     return (
-        <div className="parent">
-            <div className="div0"><h1 onClick={handleMenu}>Hansel Kang</h1></div>
-            <div className="div1">
+        <>
+        <h1>Hansel Kang</h1>
+            <div className="div1-mobile">
                 <div>Portfolio</div>
                 <br />
                 <div onClick={handleMenu}>Programming</div>
@@ -46,15 +46,9 @@ const MainContainer = () => {
 
                 <div>{selectedAct}</div>
             </div>
-            <div className="div2"><MainDrawing /></div>
-            <div className="div3">
-                Software Developer,<br />
-                Photographer<br />
-                in Scotland.<br /><br />
-                learning, <br />
-                planning, <br />
-                designing.<br />
+            <div className="mobile-drawing"><MobileDrawing />
             </div>
+
             <div className="div4">
                 <a href="https://www.linkedin.com/in/hansel-kang/" target="_blank" >
                     <img src={linkedin} width="30" />
@@ -73,8 +67,8 @@ const MainContainer = () => {
                 </a>
             </div>
             <div className="div5">2022 hanseul.com all rights reserved</div>
-        </div>
+        </>
     )
 }
 
-export default MainContainer
+export default MobileContainer
