@@ -1,40 +1,52 @@
 import React, {useEffect, useState} from 'react'
-import Modal from 'react-modal'
 
-const Portfolios = ({portfolio}) => {
-    const [selected, setSelected] = useState('')
-    const [toggleModal, setToggleModal] = useState(false);
+const PhotographyPortfolio = () => {
+    
+    const photos = [
+        {   
+            id:1,
+            image: "/src/images/photos/1.jpg"
+        },
+        {
+            id:2,
+            image: "/src/images/photos/2.jpg"
+        },
+        {
+            id:3,
+            image: "/src/images/photos/3.jpg"
+        },
+        {
+            id:4,
+            image: "/src/images/photos/4.jpg"
+        },
+        {
+            id:5,
+            image: "/src/images/photos/5.jpg"
+        },
+        {
+            id:6,
+            image: "/src/images/photos/6.jpg"
+        }
+    ]
 
-    useEffect(()=>{
-    if (toggleModal) {
-        document.body.style.overflow='hidden'
-    } else {
-        document.body.style.overflow='scroll'
+    const [selectedPhoto, setSelectedPhoto] = useState(null)
 
+    const selectPhoto = (event) => {
+        setSelectedPhoto(event)
     }
-}, [toggleModal])
 
+    const photosGrid = photos.map((photo, index)=> {
+        return <>
+            {photo.image}
+        </>
+    })
 
-const showModal =()=>{
-    setSelected(portfolio)
-    setToggleModal(true)
-}
-
-const clsoeModal = () => {
-    setSelected('')
-    setToggleModal(false)
-}
-
-return (
-
-    <Modal
-    isOpen={toggleModal}
-    ariaHideApp={false}
-    contentLabel="Portfolio"
-    className="portfolio"
-    overlayClassName="overlay"></Modal>
-
-
-)
+    return (
+        <>
+            
+        </>
+    )
 
 }
+
+export default PhotographyPortfolio
