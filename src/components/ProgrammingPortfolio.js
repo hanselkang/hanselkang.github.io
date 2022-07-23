@@ -8,13 +8,13 @@ const ProgrammingPortfolio = () => {
         return (
             <div className="div4-portfolio-item" key={index}>
                 <img src={item.image} width="350" />
-                <div>
+                <h3>
                     {item.name}
-                </div>
-                <p>
+                </h3>
+                <h5>
                     {item.languages}
-                </p>
-                <a href={item.url} target="_blank">Go to Repository</a>
+                </h5>
+                <b><a href={item.url} target="_blank">Repository & Demo</a></b>
             </div>
         )
     })

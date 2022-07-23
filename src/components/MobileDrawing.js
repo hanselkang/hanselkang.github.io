@@ -6,13 +6,13 @@ const MobileDrawing = () => {
 
     const [mouseDoor, setMouseDoor] = useState(true)
     const [mouseBirdOfPridise, setMouseBirdOfPridise] = useState(false)
-    const [mouseMonstera, setMouseMonstera] = useState(false)
+    const [mouseMonstera, setMouseMonstera] = useState(true)
     const [mouseLaptop, setMouseLaptop] = useState(true)
     const [mouseCat, setMouseCat] = useState(true)
     const [mousePot, setMousePot] = useState(false)
     const [mouseBirdhouse, setMouseBirdhouse] = useState(false)
     const [mouseFrame, setMouseFrame] = useState(false)
-    const [mouseSuitcase, setMouseSuitcase] = useState(false)
+    const [mouseSuitcase, setMouseSuitcase] = useState(true)
 
     useEffect(() => {
         const interval = setInterval(() => { setMouseDoor(mouseDoor === true ? false : true) }, 500);

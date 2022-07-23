@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+body {
+    overflow-x: hidden;
+}
 
 a:link {
     color: black;
@@ -25,17 +29,17 @@ a:active {
 
 h1 {
     font-size: 1.5em;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
 }
 
 h2 {
     font-size: 1.1em;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
 }
 
 p {
-    font-family: 'ArialRoundedMTBold', 'Arial Rounded MT Bold';
-    font-size: 11.115px
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
 }
 
 text {
@@ -74,21 +78,6 @@ text {
 }
 
 
-#construction {
-    justify-content: center;
-    position: absolute;
-    display: flex;
-    font-family: 'ArialRoundedMTBold', 'Arial Rounded MT Bold';
-    background-color: rgb(255, 164, 95);
-    margin-top: 14vw;
-    width: 25vw;
-    margin-left: 11.5vw;
-    border-radius: 2vw;
-    padding: 1vw;
-    opacity: 0.9;
-
-}
-
 #mobile-drawing {
     padding-left: 10vw;
 }
@@ -103,7 +92,7 @@ text {
     margin-top: 5vh;
     display: grid;
     grid-template-columns: 30vw 30vw 20vw;
-    grid-template-rows: 7vh 15vh 30vh 5vh 2vh;
+    grid-template-rows: 7vh 10vh 28vh 15vh 3vh;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     justify-content: center;
@@ -111,32 +100,39 @@ text {
 }
 
 .div0 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
     text-align: center;
     grid-area: 1 / 1 / 1/ 2;
+    padding-left: 3em;
 }
 
 .div1 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
     grid-area: 2 / 1 / 3/ 2;
     align-items: center;
     text-align: center;
     font-size: 1em;
+    padding-left: 3em;
 }
 
 .div1-mobile {
     margin: 10vw;
     grid-area: 2 / 1 / 3/ 2;
     padding: 1vh;
+    padding-left: 12em;
+    padding-bottom: 1.5em;
     background-color: aliceblue;
     font-size: 2.1vh;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
     font-weight: 400;
     text-align: center;
     font-stretch: expanded;
-    border-radius: 2em;
+    margin-left: -9em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
     letter-spacing: 0.1em;
     line-height: 1.3em;
+
 }
 
 .div2 {
@@ -144,15 +140,18 @@ text {
 }
 
 .div3 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
     grid-area: 3 / 1 / 4 / 2;
     padding-top: 1vh;
+    padding-left: 10em;
     background-color: aliceblue;
     font-size: 2.1vh;
     font-weight: 400;
     text-align: center;
     font-stretch: expanded;
-    border-radius: 2em;
+    margin-left: -9em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
     letter-spacing: 0.1em;
     line-height: 1.3em;
 }
@@ -171,19 +170,21 @@ text {
     grid-area: 6 / 1 / 6 / 4;
     min-height: 10vh;
     padding: 2em;
+    margin: 10px;
 }
 
 .div4-portfolio-item {
     width: 370px;
     justify-content: center;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
     border: 2px solid aliceblue;
     border-radius: 1em;
     padding: 5px;
+    margin: 10px;
 }
 
 .div4-portfolio {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
     flex-flow: row wrap;
     display: flex;
     justify-content: center;
@@ -196,7 +197,7 @@ text {
 
 
 .div5 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -206,7 +207,7 @@ text {
 }
 
 .div6 {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -214,7 +215,7 @@ text {
 }
 
 .second-menu-btn {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
     background-color: aliceblue;
     border-radius: 6px;
     border: 1px solid aliceblue;
@@ -232,7 +233,7 @@ text {
 }
 
 .photo-id-btn {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Dosis', sans-serif;
     background-color: whitesmoke;
     border-radius: 15px;
     border: 0px;
@@ -241,7 +242,7 @@ text {
     color: #666666;
     font-size: 12px;
     text-decoration: none;
-    margin-top:1em;
+    margin-top: 1em;
 }
 
 .photo-id-btn:hover {

@@ -15,7 +15,7 @@ const programming = [
 
     }, {
         id: 2,
-        name: "Children Educatioin App",
+        name: "Children Education App",
         image: p2,
         languages: "JavaScript, React, SVG",
         url: "https://github.com/hanselkang/fantastic_birds"

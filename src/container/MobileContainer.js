@@ -12,7 +12,20 @@ import OtherWork from "../components/OtherWork";
 
 const MobileContainer = () => {
 
-    const main = <h1> </h1>
+    const main = (
+        <p>
+            <b>Hello</b>,
+            I'm Hansel from South Korea. <br />
+            A <b>passionate</b> and <b>creative</b> Software Developer. <br /><br />
+            I have an established background in <br />
+            Architecture Design and Photography<br /><br />
+            <b>Innovative Designs</b> ?<br />
+            <b>Problem solving</b> ?<br />
+            That's what I'm here for !<br />
+            <br />
+            <a href="mailto: hihanseul@gmail.com"> [ contact ]</a>
+        </p>
+    )
     const programming = <ProgrammingPortfolio />
     const photograph = <PhotographyPortfolio />
     const other = <OtherWork />
@@ -20,11 +33,11 @@ const MobileContainer = () => {
     const [selectedAct, setSelectedAct] = useState(main)
 
     const handleMenu = (event) => {
-        if (event.target.innerText === "Photograph") {
+        if (event.target.innerText === "Photography") {
             setSelectedAct(photograph);
         } else if (event.target.innerText === "Programming") {
             setSelectedAct(programming);
-        } else if (event.target.innerText === "Other Works") {
+        } else if (event.target.innerText === "Art and Design Projects") {
             setSelectedAct(other);
         } else {
             setSelectedAct(main);
@@ -36,29 +49,29 @@ const MobileContainer = () => {
         <>
             <h1 className="menu" onClick={handleMenu}>Hansel Kang</h1>
             <p>
-                Software Developer,<br />
-                Photographer<br />
-                in Scotland.<br />
+                Software Developer in Scotland.<br />
             </p>
             <div className="div1-mobile">
 
                 <h2>Portfolio</h2>
                 <br />
                 <div className="menu" onClick={handleMenu}>Programming</div>
-                <div className="menu" onClick={handleMenu}>Photograph</div>
                 <br />
-                <div className="menu" onClick={handleMenu}>Other Works</div>
-                <br />
-                <a className="menu" href="mailto: hihanseul@gmail.com">email</a>
+                <div className="menu" onClick={handleMenu}>Photography</div>
+                <div className="menu" onClick={handleMenu}>Art and Design Projects</div>
 
-            
+
+
             </div>
             {selectedAct}
-            <br/>
-            <br/>
+            <br />
+            <br />
             <div className="mobile-drawing"><MobileDrawing />
             </div>
 
+            <br />
+            <br />
+            <br />
             <div className="div5">
                 <a href="https://www.linkedin.com/in/hansel-kang/" target="_blank" >
                     <img src={linkedin} width="30" />
@@ -79,7 +92,11 @@ const MobileContainer = () => {
                     <img src={tistory} width="30" />
                 </a>
             </div>
-            <div className="div6">2022 hanseul.com all rights reserved</div>
+
+            <br />
+            <div className="div6">2022 hanseul.com all rights reserved
+            </div>
+            <br />
         </>
     )
 }
