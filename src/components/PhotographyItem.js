@@ -12,7 +12,7 @@ const PhotographyItem = ({ photo, setSelectedPhoto }, key, index) => {
 
     return (
         <>
-                <button key={index} onClick={selectPhoto} value={photo.image}>
+            <button className='photo-id-btn' key={index} onClick={selectPhoto} value={photo.image}>
                     {photo.id}
                 </button>
         </>

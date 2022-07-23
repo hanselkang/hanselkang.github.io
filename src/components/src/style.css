@@ -171,6 +171,27 @@ text {
     min-height: 10vh;
     padding: 2em;
 }
+.div4-portfolio-item {
+    width: 370px;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    border: 2px solid aliceblue;
+    border-radius: 1em;
+    padding: 5px;
+}
+
+.div4-portfolio{
+    font-family: 'Inconsolata', monospace;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin-bottom: 2em;
+    grid-area: 6 / 1 / 6 / 4;
+    gap: 2em;
+}
+
+
 
 .div5 {
     font-family: 'Inconsolata', monospace;
@@ -188,4 +209,44 @@ text {
     justify-content: center;
     align-items: flex-end;
     grid-area: 8 / 1 / 8 / 4;
+}
+
+.second-menu-btn {
+    font-family: 'Inconsolata', monospace;
+    background-color: aliceblue;
+    border-radius: 6px;
+    border: 1px solid aliceblue;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 13px;
+    padding: 2px 4px;
+    margin: 3px;
+    text-decoration: none;
+}
+
+.second-menu-btn:hover {
+    color: hotpink;
+}
+
+.photo-id-btn {
+    font-family: 'Inconsolata', monospace;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.photo-id-btn:hover {
+    color: hotpink;
+}
+
+.menu {
+    cursor: pointer;
+}
+.menu:hover {color: hotpink;
 }

@@ -7,27 +7,24 @@ import instagram from "../components/src/icons/instagram.png"
 import youtube from "../components/src/icons/youtube.png"
 import ProgrammingPortfolio from "../components/ProgrammingPortfolio";
 import PhotographyPortfolio from "../components/PhotographyPortfolio";
+import OtherWork from "../components/OtherWork";
 
 const MainContainer = () => {
 
     const main = <h1> </h1>
     const programming = <ProgrammingPortfolio />
     const photograph = <PhotographyPortfolio />
-    const other = <h3> </h3>
-    const email = <h3> </h3>
+    const other = <OtherWork />
 
     const [selectedAct, setSelectedAct] = useState(main)
 
     const handleMenu = (event) => {
-        console.log(event.target)
         if (event.target.innerText === "Photograph") {
             setSelectedAct(photograph);
         } else if (event.target.innerText === "Programming") {
             setSelectedAct(programming);
         } else if (event.target.innerText === "Other Works") {
             setSelectedAct(other);
-        } else if (event.target.innerText === "email") {
-            setSelectedAct(email);
         } else {
             setSelectedAct(main);
         }
@@ -37,7 +34,7 @@ const MainContainer = () => {
     return (
         <div className="parent">
             <div className="div0">
-                <h1 onClick={handleMenu}>
+                <h1 className="menu" onClick={handleMenu}>
                     Hansel Kang
                 </h1>
             </div>
@@ -52,10 +49,10 @@ const MainContainer = () => {
             <div className="div3">
                 <h2>Portfolio</h2>
                 <br />
-                <div onClick={handleMenu}>Programming</div>
-                <div onClick={handleMenu}>Photograph</div>
+                <div className="menu" onClick={handleMenu}>Programming</div>
+                <div className="menu" onClick={handleMenu}>Photograph</div>
                 <br />
-                <div onClick={handleMenu}>Other Works</div>
+                <div className="menu" onClick={handleMenu}>Other Works</div>
                 <br />
                 <a href="mailto: hihanseul@gmail.com">email</a>
             </div>

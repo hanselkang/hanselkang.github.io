@@ -7,6 +7,7 @@ import p6 from "../src/landscape/006.jpg"
 import p7 from "../src/landscape/007.jpg"
 import p8 from "../src/landscape/008.jpg"
 import p9 from "../src/landscape/009.jpg"
+import p10 from "../src/landscape/010.jpg"
 
 // dummy data for portfolio
 const landscape = [
@@ -37,6 +38,9 @@ const landscape = [
     }, {
         id: 9,
         image: p9
+    }, {
+        id: 10,
+        image: p10
     },
 ]
 

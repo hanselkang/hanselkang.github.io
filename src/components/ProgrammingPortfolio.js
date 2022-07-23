@@ -1,50 +1,28 @@
 import React, { useEffect, useState } from 'react'
+import programming from './data/Programming'
 
 const ProgrammingPortfolio = () => {
 
-    const photos = [
-        {
-            id: 1,
-            image: "/src/images/photos/1.jpg"
-        },
-        {
-            id: 2,
-            image: "/src/images/photos/2.jpg"
-        },
-        {
-            id: 3,
-            image: "/src/images/photos/3.jpg"
-        },
-        {
-            id: 4,
-            image: "/src/images/photos/4.jpg"
-        },
-        {
-            id: 5,
-            image: "/src/images/photos/5.jpg"
-        },
-        {
-            id: 6,
-            image: "/src/images/photos/6.jpg"
-        }
-    ]
 
-    const [selectedPhoto, setSelectedPhoto] = useState(null)
-
-    const selectPhoto = (event) => {
-        setSelectedPhoto(event)
-    }
-
-    const photosGrid = photos.map((photo, index) => {
-        return <>
-            {photo.image}
-        </>
+    const items = programming.map((item, index) => {
+        return (
+            <div className="div4-portfolio-item" key={index}>
+                <img src={item.image} width="350" />
+                <div>
+                    {item.name}
+                </div>
+                <p>
+                    {item.languages}
+                </p>
+                <a href={item.url} target="_blank">Go to Repository</a>
+            </div>
+        )
     })
 
     return (
-        <>
-            <p>Programing</p>
-        </>
+        <div className="div4-portfolio">
+            {items}
+        </div>
     )
 
 }
