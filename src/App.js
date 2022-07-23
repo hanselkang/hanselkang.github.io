@@ -14,14 +14,6 @@ function App() {
 
   const DesktopMode = () => (
     <div className="App">
-      <div id="construction">
-        Under construction<br />
-        Mobile app
-        <br />
-        &<br />
-        Portfolio Menu<br />
-        are coming soon
-      </div>
       <MainContainer />
     </div>
   )
