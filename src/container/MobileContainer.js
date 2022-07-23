@@ -5,6 +5,7 @@ import github from "../components/src/icons/github.png"
 import twitter from "../components/src/icons/twitter.png"
 import instagram from "../components/src/icons/instagram.png"
 import youtube from "../components/src/icons/youtube.png"
+import tistory from "../components/src/icons/tstory.png"
 import ProgrammingPortfolio from "../components/ProgrammingPortfolio";
 import PhotographyPortfolio from "../components/PhotographyPortfolio";
 import OtherWork from "../components/OtherWork";
