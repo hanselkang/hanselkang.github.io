@@ -172,6 +172,7 @@ text {
     min-height: 10vh;
     padding: 2em;
 }
+
 .div4-portfolio-item {
     width: 370px;
     justify-content: center;
@@ -181,7 +182,7 @@ text {
     padding: 5px;
 }
 
-.div4-portfolio{
+.div4-portfolio {
     font-family: 'Inconsolata', monospace;
     flex-flow: row wrap;
     display: flex;
@@ -232,26 +233,34 @@ text {
 
 .photo-id-btn {
     font-family: 'Inconsolata', monospace;
-    background-color: aliceblue;
-    border-radius: 10px;
+    background-color: whitesmoke;
+    border-radius: 15px;
     border: 0px;
     display: inline-block;
     cursor: pointer;
     color: #666666;
-    font-size: 15px;
+    font-size: 12px;
     text-decoration: none;
+    margin-top:1em;
 }
 
 .photo-id-btn:hover {
     color: hotpink;
+    background-color: pink;
 }
 
 .menu {
     cursor: pointer;
 }
-.menu:hover {color: hotpink;
+
+.menu:hover {
+    color: hotpink;
 }
 
+
+
 .img {
-    width: 50%;
+    position: relative;
+    max-height: 500px;
+    max-width: 90%;
 }

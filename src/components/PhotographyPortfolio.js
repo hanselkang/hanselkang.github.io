@@ -49,12 +49,15 @@ const PhotographyPortfolio = () => {
             <div className="div4-item">
                 {selectedPhoto != null ?
                     <>
-                        <img className="img" src={selectedPhoto} ></img>
+                        <div className="img_container">
+                            <img className="img" src={selectedPhoto} />
+                        </div>
                         <br />
                         <button className='photo-id-btn' onClick={resetPhoto}> close </button>
                     </>
                     :
-                    <img src={p10} className="img" ></img>}
+                    <div className="img_container">
+                    <img src={p10} className="img" /></div>}
             </div>
 
         </>
