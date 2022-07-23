@@ -74,6 +74,9 @@ const MobileContainer = () => {
                 <a href="https://youtu.be/4i7ZvnOR9NU" target="_blank" >
                     <img src={youtube} width="30" />
                 </a>
+                <a href="https://aballadofbignothing.tistory.com" target="_blank" >
+                    <img src={tistory} width="30" />
+                </a>
             </div>
             <div className="div6">2022 hanseul.com all rights reserved</div>
         </>
