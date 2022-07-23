@@ -34,7 +34,7 @@ const MobileContainer = () => {
 
     return (
         <>
-            <h1 className="menu">Hansel Kang</h1>
+            <h1 className="menu" onClick={handleMenu}>Hansel Kang</h1>
             <p>
                 Software Developer,<br />
                 Photographer<br />
