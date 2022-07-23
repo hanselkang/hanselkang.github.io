@@ -45,16 +45,16 @@ const PhotographyPortfolio = () => {
             <div className="div4">
                 {photosGrid}
             </div>
-            <br/>
+            <br />
             <div className="div4-item">
                 {selectedPhoto != null ?
                     <>
-                        <img src={selectedPhoto} height="300"></img>
+                        <img className="img" src={selectedPhoto} ></img>
                         <br />
                         <button className='photo-id-btn' onClick={resetPhoto}> close </button>
                     </>
                     :
-                    <img src={p10} height="300"></img>}
+                    <img src={p10} className="img" ></img>}
             </div>
 
         </>

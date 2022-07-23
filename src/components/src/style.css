@@ -251,3 +251,7 @@ text {
 }
 .menu:hover {color: hotpink;
 }
+
+.img {
+    width: 50%;
+}
