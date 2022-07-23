@@ -5,6 +5,7 @@ import github from "../components/src/icons/github.png"
 import twitter from "../components/src/icons/twitter.png"
 import instagram from "../components/src/icons/instagram.png"
 import youtube from "../components/src/icons/youtube.png"
+import tistory from "../components/src/icons/tstory.png"
 import ProgrammingPortfolio from "../components/ProgrammingPortfolio";
 import PhotographyPortfolio from "../components/PhotographyPortfolio";
 import OtherWork from "../components/OtherWork";
@@ -72,6 +73,9 @@ const MainContainer = () => {
                 </a>
                 <a href="https://youtu.be/4i7ZvnOR9NU" target="_blank" >
                     <img src={youtube} width="30" />
+                </a>
+                <a href="https://aballadofbignothing.tistory.com" target="_blank" >
+                    <img src={tistory} width="30" />
                 </a>
             </div>
             <div className="div6">2022 hanseul.com all rights reserved</div>
