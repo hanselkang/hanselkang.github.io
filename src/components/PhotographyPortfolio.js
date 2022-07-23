@@ -17,7 +17,6 @@ const PhotographyPortfolio = () => {
             <PhotographyItem photo={photo} key={photo.id} index={index} setSelectedPhoto={setSelectedPhoto} />
         )
     })
-    console.log(selectedPhoto)
 
     const handleGenre = (event) => {
         if (event.target.value === "portrait") {

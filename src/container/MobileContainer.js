@@ -19,7 +19,6 @@ const MobileContainer = () => {
     const [selectedAct, setSelectedAct] = useState(main)
 
     const handleMenu = (event) => {
-        console.log(event.target)
         if (event.target.innerText === "Photograph") {
             setSelectedAct(photograph);
         } else if (event.target.innerText === "Programming") {
