@@ -45,6 +45,7 @@ const PhotographyPortfolio = () => {
             <div className="div4">
                 {photosGrid}
             </div>
+            <br/>
             <div className="div4-item">
                 {selectedPhoto != null ?
                     <>

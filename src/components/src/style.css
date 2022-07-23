@@ -160,6 +160,7 @@ text {
 .div4 {
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
     grid-area: 5 / 1 / 6 / 4;
     gap: 1em;
 }
