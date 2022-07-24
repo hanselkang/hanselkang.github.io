@@ -83,7 +83,7 @@ text {
 }
 
 .svg {
-    min-width: 550px;
+    min-width: 400px;
     max-width: 700px;
 }
 
@@ -92,7 +92,7 @@ text {
     margin-top: 5vh;
     display: grid;
     grid-template-columns: 30vw 30vw 20vw;
-    grid-template-rows: 7vh 10vh 28vh 15vh 3vh;
+    grid-template-rows: 7vh 10vh 28vh 15vh 3vh 10vh;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     justify-content: center;
@@ -252,6 +252,7 @@ text {
 
 .menu {
     cursor: pointer;
+    line-height: 1.7;
 }
 
 .menu:hover {

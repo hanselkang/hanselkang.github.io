@@ -56,7 +56,6 @@ const MobileContainer = () => {
                 <h2>Portfolio</h2>
                 <br />
                 <div className="menu" onClick={handleMenu}>Programming</div>
-                <br />
                 <div className="menu" onClick={handleMenu}>Photography</div>
                 <div className="menu" onClick={handleMenu}>Art and Design Projects</div>
 
